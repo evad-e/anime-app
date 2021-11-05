@@ -9,7 +9,7 @@ const Fetch = () => {
       .then((data) => setAnime(data.top.splice(0,20)))
     }, []);
   return (
-    <div className="grid grid-cols-5">
+    <div className="grid lg:grid-cols-5 md:grid-cols-3 ">
         {anime.map((item) =>{
             return <Card title={item.title} img={item.image_url} score={item.score} url={item.url}/>
         } 

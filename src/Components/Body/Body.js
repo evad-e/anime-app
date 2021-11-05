@@ -1,5 +1,4 @@
 import React from 'react'
-import Card from './Basic/Card';
 import Fetch from './Basic/Fetch';
 import Hero from './Basic/Hero';
 const Body = () => {

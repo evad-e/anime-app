@@ -1,7 +1,7 @@
 import React from 'react'
-import { useState } from 'react';
+
 const Hero = () => {
-  const [show, setShow] = useState(false);
+  
   return (
     <>
       
