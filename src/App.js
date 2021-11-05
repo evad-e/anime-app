@@ -1,10 +1,12 @@
+import Search from "./Components/Search/Search";
 
 
 
 function App() {
   return (
-    <div className="">
-      
+    <div className="text-center">
+      <Search />
+
     </div>
   );
 }
