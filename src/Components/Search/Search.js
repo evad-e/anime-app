@@ -1,15 +1,20 @@
 import React from 'react'
-
+import Title from './Basic/Title'
+import Input from './Basic/Input'
+import Button from './Basic/Button'
 
 const Search = () => {
   return (
-    <div class="w-full flex flex-row items-center p-2 justify-between shadow-xs bg-blue-900">
-      <div class="ml-8 text-3xl font-semibold text-white hidden md:flex">
-          Anime Library
+    <div className="w-full flex flex-row items-center p-2 justify-between shadow-xs bg-blue-900">
+      
+      <Title title = "Anime Library"/>
+      <div className="w-1/4 flex justify-end">
+        <Input name = "search" type = "search" placeholder="Search"/>
+        <Button/>
       </div>
-      <span class="w-1/4 h-10 cursor-pointer text-sm rounded-full flex">
-          <input type="search" name="search" placeholder="Search" class="flex-grow px-4 rounded-l-full rounded-r-full text-sm focus:outline-none"/>
-      </span>
+      
+      
+      
       
     </div>
 
